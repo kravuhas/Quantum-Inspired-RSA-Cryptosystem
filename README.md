@@ -25,13 +25,13 @@ python quantum_rsa.py
 
 ```bash
 # RSA com primos de 512 bits + log do experimento
-python quantum_rsa.py --message "FURG" --bits 512 --log
+python Quantum-Inspired-RSA-Cryptosystem.py --message "FURG" --bits 512 --log
 
 # Análise de entropia: Quantum RNG vs random.randint
-python quantum_rsa.py --demo-entropy --samples 300
+python Quantum-Inspired-RSA-Cryptosystem.py --demo-entropy --samples 300
 
 # Benchmark de velocidade: overhead do circuito vs PRNG
-python quantum_rsa.py --demo-benchmark --runs 20
+python Quantum-Inspired-RSA-Cryptosystem.py --demo-benchmark --runs 20
 ```
 
 ---
